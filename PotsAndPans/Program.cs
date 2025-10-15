@@ -11,7 +11,7 @@ namespace PotsAndPans
             string answer = GenerateNumber();
             int tries = 0;
             Console.WriteLine("  ____       _                         _   ____                 \r\n |  _ \\ ___ | |_ ___    __ _ _ __   __| | |  _ \\ __ _ _ __  ___ \r\n | |_) / _ \\| __/ __|  / _` | '_ \\ / _` | | |_) / _` | '_ \\/ __|\r\n |  __/ (_) | |_\\__ \\ | (_| | | | | (_| | |  __/ (_| | | | \\__ \\\r\n |_|   \\___/ \\__|___/  \\__,_|_| |_|\\__,_| |_|   \\__,_|_| |_|___/\r\n                                                                ");
-            Console.WriteLine("-By Quinn" + Environment.NewLine);
+            Console.WriteLine("-By Ruka" + Environment.NewLine);
             Console.WriteLine("Welcome to POTS AND PANS!\r\n\r\nThe computer has generated a secret 4-digit number. \r\nEach digit is unique — no repeats.\r\n\r\nYour goal: guess the number in as few tries as possible.\r\n\r\nAfter each guess, you’ll see feedback:\r\n- A “pot” means a correct digit in the correct position.\r\n- A “pan” means a correct digit but in the wrong position.\r\n\r\nExample:\r\nIf the secret number is 1234 and you guess 1325,\r\nyou’ll get: 2 pots, 1 pan.\r\n\r\nType “quit” anytime to exit the game.\r\n\r\nGood luck. Try not to embarrass yourself.\r\n");
             while (true)
             {
